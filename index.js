@@ -9,13 +9,13 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?',
+        name: 'description',
+        message: 'Provide a short description explaining the what, why, and how of your project.',
     },
     {
         type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?',
+        name: 'installation',
+        message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development enviroment running.',
     },
     {
         type: 'input',
