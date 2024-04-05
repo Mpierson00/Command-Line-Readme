@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
+const fs = require('fs');
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -19,23 +20,18 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?',
+        name: 'usage',
+        message: 'Provide instructions and examples for use. Include screenshots as needed.',
     },
     {
         type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?',
+        name: 'contributing',
+        message: 'How can other developers contribute to your project?',
     },
     {
         type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?',
-    },
-    {
-        type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?',
+        name: 'tests',
+        message: 'Provide examples on how to run tests for your application.',
     },
     {
         type: 'input',
