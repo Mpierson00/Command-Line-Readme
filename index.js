@@ -34,19 +34,20 @@ const questions = [
         message: 'Provide examples on how to run tests for your application.',
     },
     {
-        type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?',
+        type: 'list',
+        name: 'license',
+        message: 'Choose a license for your project:',
+        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'BSD 3', 'None'],
     },
     {
         type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?',
+        name: 'github',
+        message: 'Enter your Github username:',
     },
     {
         type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?',
+        name: 'email',
+        message: 'Enter your email address:',
     },
 ];
 
