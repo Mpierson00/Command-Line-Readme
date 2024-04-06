@@ -46,8 +46,21 @@ ${renderLicenseLink(data.license)}
 ${data.installation}
 \`\`\`
 
+## Usage
+${data.usage}
 
+## Contributing
+${data.contributing}
 
+## Tests
+\`\`\`
+${data.tests}
+\`\`\`
+
+${renderLicenseSection(data.license)}
+
+## Questions
+If you have any questions about the repo, open an issue or contact me directly at [${data.email}](mailto:${data.email}). You can find more of my work at [${data.github}](https://github.com/${data.github}/).
 `;
 }
 
