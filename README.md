@@ -23,7 +23,7 @@ npm install
 ```
 
 ## Usage
-Once the installation is complete, you can run the application using Node.js. Follow the prompts to enter your project details, which will be used to generate your README file.
+Once the installation is complete, you can run the application using Node.js. Follow the prompts to enter your project details, which will be used to generate your README file. Watch a walkthrough of the README generator in action here: https://youtu.be/WyS9MO1fbms.
 
 ## Contributing
 If you're interested in contributing to the README generator, your input is welcome! Whether it's fixing bugs, adding new features, or improving documentation, your contributions are appreciated.  
